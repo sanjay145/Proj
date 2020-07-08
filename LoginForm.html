@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="C:\Users\Sanjay Kumar\Desktop\nirvana\CSS\LoginForm.css">
+</head>
+
+<body>
+
+
+    <div class="loginbox">
+        <h2 class="LoginHeading">Login Here</h2>
+        <div class="UserImage">
+            <img src="Images/UserLoginImag.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname" class="Username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <div class="logincenter">
+                <button class="loginbtn" type="submit">Login</button>
+            </div>
+            <br>
+            <label class="Remember me">
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container">
+            <button type="button" class="cancelbtn" onclick="backButton()">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </div>
+    <!--Script-->
+    <script src="js/LoginForm.js"></script>
+    <!--End of Script-->
+</body>
+
+</html>
